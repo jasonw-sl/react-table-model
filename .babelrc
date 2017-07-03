@@ -2,9 +2,15 @@
     presets: [
         "es2015",
         "stage-0",
-        "react"
+        "react",
+        "env"
     ],
     plugins: [
         "transform-object-rest-spread"
-    ]
+    ],
+    "env": {
+        "test": {
+            "plugins": ["istanbul"]
+        }
+    }
 }
