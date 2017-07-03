@@ -8,7 +8,7 @@ describe('Body', () => {
     const render = testComponentRenderer({ error: false });
 
     describe('renders', () => {
-        it('a tbody', () => {
+        it.only('a tbody', () => {
             const { document } = render(
                 <Body />
             );
