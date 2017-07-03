@@ -3,10 +3,6 @@
   "require":[
     "babel-register"
   ],
-  "extension": [
-      ".jsx",
-      ".js"
-  ],
   "sourceMap": false,
   "instrument":false
 }
